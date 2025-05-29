@@ -1,0 +1,102 @@
+/* Reset de alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #874caf;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #af4caf;
+    margin-bottom: 10px;
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto das seções */
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilo das imagens */
+.imagem-section {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo do gráfico */
+#grafico-tecnologia {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .imagem-section {
+        max-width: 100%;
+    }
+}
